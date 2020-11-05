@@ -3,18 +3,24 @@
 
 Objective:  Conduct a climate analysis to help plan for a trip to Honolulu, Hawaii.
 
-Step 1: Climate Analysis and Exploration
-* Precipitation Analysis - Retrieve the last 12 months of precipitation data, calculate the summary statistics and plot the results.
-* Station Analysis - Calculate the total number of weather stations, find the most active stations, retrieve the last 12 months of temperature observations
-   from the most active station and plot in a histogram.
+Step 1: Conduct a climate analysis and data exploration with an SQL database, analyzing and visualizing the data using Pandas and matplotlib
+* A precipitation analysis was conducted using the most recent 12 months of precipitation data; summary statistics were calculated and plotted
+* A weather station analysis was performed to find the total number of weather stations, the most active of these stations, and temperature observations (most recent 12 months)
+   for the most active weather station
 
-Step 2:  Climate App
-* Design a Flask API based on the queries from Step1; include the following routes:
-   * Home - list all available routes
-   * Precipitation - list precipitation results for past 12 months
-   * Stations - list of all weather stations
-   * Tobs - list temperature observations of most active station for past 12 months
-   * Start Date - list minimum, maximum, and average temperature for all dates greater than and equal to start date
-   * Start/End Date - list minimum, maximum, and average temperature for all dates between (inclusive) of start and end dates
+Step 2:  Design a climate app using a Flask API based on the data collected in Step 1
+* The following routes were created in the Flask API app:
+   * Home - a list all available routes in the app
+   * Precipitation - precipitation results for past 12 months
+   * Stations - a list of all weather stations
+   * Tobs - temperature observations (past 12 months) for the most active weather station
+   * Start Date - list the minimum, maximum, and average temperature for all dates greater than and equal to a specified start date
+   * Start/End Date - list the minimum, maximum, and average temperature for all dates between (inclusive) of a specified start date and specified end date
    
-   
+Step 3:  Conduct additional analyses to explore temperatures in Hawaii including:
+*  Determine if there is a meaningful difference between the temperatures in June and December
+*  Pick a time period to travel to Hawaii and determine the minimum, maximum, and average temperatures for the previous year period, creating a bar chart visualization
+*  Using the same dates, determine the average daily rainfall for the previous year period
+*  Determine the daily normals (minimum, maximum, and average temperatures) using all the previous years corresponding to the selected trip dates
+
+
