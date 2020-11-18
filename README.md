@@ -33,7 +33,7 @@
 
    ![Image4](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Trip%20Avg%20Temp.PNG)
 
-*  Using the same dates, determine the average daily rainfall for the previous year period for each weather station.
+*  Using the same dates, determine the total rainfall for the previous year period for each weather station.
 
    ![Image5](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Precip_Station.PNG)
 
