@@ -4,6 +4,7 @@
 
 **Step 1:** Conduct a climate analysis and data exploration with an SQL database, analyzing and visualizing the data using Pandas and matplotlib.
 * A precipitation analysis was conducted using the most recent 12 months of precipitation data; summary statistics were calculated and plotted.
+* The average precipitation over the 12 month period was 0.177 inches with a maximum rainfall amount of 6.7 inches.
 
    ![Image1](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/describe.png)
    ![Image2](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/P12M%20Precipitation.PNG)
