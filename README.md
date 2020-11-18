@@ -4,7 +4,7 @@
 
 **Step 1:** Conduct a climate analysis and data exploration with an SQL database, analyzing and visualizing the data using Pandas and matplotlib.
 * A precipitation analysis was conducted using the most recent 12 months of precipitation data; summary statistics were calculated and plotted.
-* The average precipitation over the 12 month period was 0.177 inches with a maximum rainfall amount of 6.7 inches.
+  - The average precipitation over the 12 month period was 0.177 inches with a maximum rainfall amount of 6.7 inches.
 
    ![Image1](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/describe.png)
    ![Image2](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/P12M%20Precipitation.PNG)
@@ -27,6 +27,8 @@
    
 **Step 3:**  Conduct additional analyses to explore temperatures in Hawaii including:
 *  Determine if there is a meaningful difference between the temperatures in June and December.
+   -  The average temperature in June is 74.9 degrees and the average temperature in December is 71.0.  An independent t-test to compare these monthly averages showed there is a significant difference.
+
 *  Pick a time period to travel to Hawaii and determine the minimum, maximum, and average temperatures for the previous year period, creating a bar chart visualization.
 
    ![Image4](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Trip%20Avg%20Temp.PNG)
