@@ -33,9 +33,12 @@
 
    ![Image4](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Trip%20Avg%20Temp.PNG)
 
-*  Using the same dates, determine the average daily rainfall for the previous year period.
+*  Using the same dates, determine the average daily rainfall for the previous year period for each weather station.
+
+   ![Image5](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Precip_Station.PNG)
+
 *  Determine the daily normals (minimum, maximum, and average temperatures) using all the previous years corresponding to the selected trip dates.
 
-   ![Image5](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Daily%20Normals.PNG)
+   ![Image6](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Daily%20Normals.PNG)
 
 
