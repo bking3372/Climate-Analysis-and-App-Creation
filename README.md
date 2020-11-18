@@ -6,11 +6,14 @@
 * A precipitation analysis was conducted using the most recent 12 months of precipitation data; summary statistics were calculated and plotted.
 
    ![Image1](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/describe.png)
+   ![Image2](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/P12M%20Precipitation.PNG)
 
 * A weather station analysis was performed to find the total number of weather stations, the most active of these stations, and temperature observations (most recent 12 months)
    for the most active weather station.
+   -  Of the nine weather stations, Station USC00519281 is the most active station with an average temperature of 71.7.
    
-   ![Image2](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/P12M%20Precipitation.PNG)
+   ![Image3](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Temp%20Histogram.PNG)
+   
 
 **Step 2:**  Design a climate app using a Flask API based on the data collected in Step 1.
 * The following routes were created in the Flask API app:
@@ -25,7 +28,7 @@
 *  Determine if there is a meaningful difference between the temperatures in June and December.
 *  Pick a time period to travel to Hawaii and determine the minimum, maximum, and average temperatures for the previous year period, creating a bar chart visualization.
 
-   ![Image3](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Trip%20Avg%20Temp.PNG)
+   ![Image4](https://github.com/bking3372/Climate-Analysis-and-App-Creation/blob/master/images/Trip%20Avg%20Temp.PNG)
 
 *  Using the same dates, determine the average daily rainfall for the previous year period.
 *  Determine the daily normals (minimum, maximum, and average temperatures) using all the previous years corresponding to the selected trip dates.
